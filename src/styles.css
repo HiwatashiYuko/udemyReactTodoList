@@ -1,4 +1,79 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
-}
+
+body {
+  
+  
+    text-align: center;
+    margin: 1rem auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
+    input {
+      border-radius: 16px;
+      border: none;
+      padding: 6px 16px;
+      outline: none;
+    }
+  
+    button {
+      border-radius: 16px;
+      border: none;
+      padding: 4px 16px;
+    }
+  
+    button:hover {
+      background-color: pink;
+      color: white;
+      cursor: pointer;
+    }
+  
+    li {
+      margin-right: 8px;
+    }
+  .input-area {
+    border-radius: 8px;
+    height: 30px;
+    border: none;
+    background-color: #c1fffc;
+    width: 400px;
+    padding: 8px;
+    margin: 8px;
+    color:aliceblue
+  
+  }
+  
+  .incomplete-area {
+    width: 400px;
+    min-height: 200px;
+    padding: 8px;
+    margin: 8px;
+    background-color: #C6ffe2;
+    color:aliceblue
+    border-radius: 8px;
+  }
+  
+  .complete-area {
+    background-color: papayawhip;
+    width: 400px;
+    min-height: 200px;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 8px;
+  }
+  
+  .title {
+    text-align: center;
+    margin-top: 0;
+    font-weight: bold;
+    color: cadetblue;
+  }
+  
+  .list-row {
+    display: flex;
+    align-items: center;
+    padding-bottom: 4px;
+  }
+  
+  /*classには.を最初につける*/
+  /*idには「#」をつける*/
+  /*classの場合はドットが必要で、タグの場合は必要*/
+  
